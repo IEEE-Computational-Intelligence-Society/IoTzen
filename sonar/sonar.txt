@@ -1,0 +1,6 @@
+
+https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home
+
+Download the SR04 Ultrasonic sensor.
+You should now be able to see the library and examples in select File > Examples > NewPing > NewPingexample sketch.
+Load the sketch to your Arduino.
