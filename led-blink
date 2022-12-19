@@ -1,0 +1,32 @@
+// Defining LEDs
+int redLED = 3;
+int greenLED = 4;
+int blankLED = 5;
+int del = 400; // Milliseconds of delayment
+void setup() {
+
+// Making the LEDs outputs
+pinMode(redLED,OUTPUT);
+pinMode(greenLED, OUTPUT);
+pinMode(blankLED, OUTPUT);
+}
+
+void loop() {
+// blink blonk
+Serial.print("Blink Blonk");
+// Making every LED blink.
+digitalWrite(redLED,HIGH);
+delay(del);
+digitalWrite(redLED,LOW);
+delay(del);
+digitalWrite(greenLED,HIGH);
+delay(del);
+digitalWrite(greenLED,LOW);
+digitalWrite(blankLED,HIGH);
+delay(del);
+digitalWrite(blankLED,LOW);
+
+}
+
+
+
